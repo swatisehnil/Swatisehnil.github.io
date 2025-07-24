@@ -1951,3 +1951,28 @@ body.blog-post article img {
   from, to { border-color: transparent }
   50% { border-color: gray }
 }
+
+@media only screen and (max-width: 600px){
+  .typewriter .typing-erase {
+   margin-left: 0px !important;
+  }
+      .home .home-details p {
+        font-size: 13px;
+        
+        text-align: justify;
+      }
+      .about .about-list li:not(:last-child) {
+    padding-bottom: 7px;
+}
+hr.separator {
+    margin: 10px auto 25px;
+}
+.about .resume-box p {
+  font-size: 12px;
+    text-align: justify;
+}
+.blog .post-content {
+    
+    height: 170px;
+}
+}
